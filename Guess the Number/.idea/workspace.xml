@@ -1,13 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1b390c9b-ff99-4bd1-a27f-e43dcc963d04" name="Changes" comment="" />
+    <list default="true" id="20ca4d40-acc8-4992-8035-a266897db7e7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Dragon Cave/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dragon Cave/out/production/Project 1/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dragon Cave/src/DragonCave.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Dragon Cave/src/DragonCave.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GuessTheNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GuessTheNumber.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectId" id="2BtvbNV7qyfehOuduKGTmImuD7b" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2C7YEeV7BmY5ZzCNwmA2lzMXUCJ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -16,17 +42,26 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/GenSpark/Project 2"
+    "last_opened_file_path": "C:/Pyramid-Acadamy/Guess the Number"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="Run" type="Application" factoryName="Application" show_console_on_std_err="true" show_console_on_std_out="true">
+      <option name="MAIN_CLASS_NAME" value="GuessTheNumber" />
+      <module name="Guess the Number" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="1b390c9b-ff99-4bd1-a27f-e43dcc963d04" name="Changes" comment="" />
-      <created>1657738265561</created>
+      <changelist id="20ca4d40-acc8-4992-8035-a266897db7e7" name="Changes" comment="" />
+      <created>1658154981994</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1657738265561</updated>
+      <updated>1658154981994</updated>
     </task>
     <servers />
   </component>

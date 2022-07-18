@@ -11,7 +11,6 @@ public class DragonCave {
         System.out.println("Which cave will you go into?(1 or 2)");
 
         try {
-        	@SuppressWarnings("unused")
 			String input = getInput.nextLine();
         } catch (Exception e) {
         	System.out.println(e.getMessage());
