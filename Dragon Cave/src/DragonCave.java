@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main {
+public class DragonCave {
     public static void main(String[] args) {
         Scanner getInput = new Scanner(System.in);
 
@@ -10,11 +10,18 @@ public class Main {
         System.out.println("is greedy and hungry and will eat you on sight.");
         System.out.println("Which cave will you go into?(1 or 2)");
 
-        String input = getInput.nextLine();
+        try {
+        	@SuppressWarnings("unused")
+			String input = getInput.nextLine();
+        } catch (Exception e) {
+        	System.out.println(e.getMessage());
+        }
 
         System.out.println("You approach the cave...");
         System.out.println("It is dark and spooky...");
         System.out.println("A large dragon jumps out in front of you! He opens his jaws and...");
         System.out.println("Gobbles you down in one bite!");
+        
+        getInput.close();
     }
 }
