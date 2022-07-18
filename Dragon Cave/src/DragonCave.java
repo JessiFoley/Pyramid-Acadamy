@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class DragonCave {
     public static void main(String[] args) {
         Scanner getInput = new Scanner(System.in);
-        String input = "";
+        int input = 0;
 
         System.out.println("You are in a land full of dragons. In front of you, ");
         System.out.println("you see two caves. In one cave, the dragon is friendly");
@@ -12,12 +12,12 @@ public class DragonCave {
         System.out.println("Which cave will you go into?(1 or 2)");
 
         try {
-			input = getInput.nextLine();
+			input = getInput.nextInt();
         } catch (Exception e) {
         	System.out.println(e.getMessage());
         }
 
-        if (input.equals("1")) {
+        if (input == 1) {
             System.out.println("You approach the cave...");
             System.out.println("It is dark and spooky...");
             System.out.println("A large dragon jumps out in front of you! He opens his jaws and...");
