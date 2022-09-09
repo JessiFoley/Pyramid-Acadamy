@@ -11,11 +11,18 @@ public class DragonCave {
         System.out.println("is greedy and hungry and will eat you on sight.");
         System.out.println("Which cave will you go into?(1 or 2)");
 
-        try {
-			input = getInput.nextInt();
-        } catch (Exception e) {
-        	System.out.println(e.getMessage());
-        }
+        do {
+            try {
+                input = getInput.nextInt();
+
+                if (input != 1 && input != 2)
+                    throw new IllegalArgumentException();
+
+            } catch (Exception e) {
+                System.out.println("Input is not 1 or 2.\nPlease enter 1 or 2");
+            }
+            getInput.nextLine();
+        } while (input != 1 && input != 2);
 
         if (input == 1) {
             System.out.println("You approach the cave...");
